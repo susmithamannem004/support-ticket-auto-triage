@@ -1,11 +1,16 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
+import os
 from src.preprocess import clean_text
 
 app = FastAPI(title="Customer Support Ticket Auto-Triage API")
 
-model = joblib.load("model/ticket_classifier.pkl")
+# ✅ Robust model path (works with uvicorn, GitHub, deployment)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "model", "ticket_classifier.pkl")
+
+model = joblib.load(MODEL_PATH)
 
 class Ticket(BaseModel):
     subject: str

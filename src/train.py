@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
@@ -6,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report
 
-from preprocess import clean_text
+from src.preprocess import clean_text
 
 # Load dataset
 df = pd.read_csv("data/tickets.csv")
@@ -38,6 +39,7 @@ print("\nClassification Report:\n")
 print(classification_report(y_test, y_pred))
 
 # Save model
+os.makedirs("model", exist_ok=True)
 joblib.dump(model, "model/ticket_classifier.pkl")
 
 print("\n✅ Model trained and saved successfully!")
