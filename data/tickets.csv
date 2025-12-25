@@ -1,0 +1,51 @@
+Ticket_ID,Subject,Description,Category,Priority,Timestamp
+1,Login issue,Unable to login using valid credentials,Account Management,High,2025-01-10 10:30:00
+2,Payment failed,Amount deducted but transaction failed,Billing Inquiry,High,2025-01-10 11:00:00
+3,App crash,Application crashes when submitting form,Bug Report,High,2025-01-11 09:15:00
+4,Feature request dark mode,Please add dark mode feature,Feature Request,Low,2025-01-11 14:20:00
+5,Slow website,Website performance is very slow,Technical Issue,Medium,2025-01-12 16:45:00
+6,Password reset issue,Reset password link is not working,Account Management,Medium,2025-01-12 18:00:00
+7,Incorrect invoice,Charged twice for the same subscription,Billing Inquiry,High,2025-01-13 10:10:00
+8,UI overlap bug,Text overlaps on mobile screen,Bug Report,Low,2025-01-13 13:30:00
+9,Export reports feature,Need export option for reports,Feature Request,Low,2025-01-14 09:00:00
+10,Server timeout,Dashboard shows timeout error,Technical Issue,High,2025-01-14 17:40:00
+11,Profile update failed,Unable to save profile changes,Account Management,Medium,2025-01-15 10:00:00
+12,Refund not received,Refund initiated but not credited,Billing Inquiry,High,2025-01-15 11:30:00
+13,Login page error,Error message shown on login page,Bug Report,Medium,2025-01-16 09:40:00
+14,Add multi language support,Application should support multiple languages,Feature Request,Low,2025-01-16 15:20:00
+15,API error,API returning 500 error,Technical Issue,High,2025-01-16 18:10:00
+16,Account locked,Account locked after multiple login attempts,Account Management,High,2025-01-17 09:00:00
+17,Wrong billing amount,Billing amount is higher than expected,Billing Inquiry,Medium,2025-01-17 11:45:00
+18,Notification bug,Notifications not appearing correctly,Bug Report,Low,2025-01-18 10:30:00
+19,Add download option,Need download option for invoices,Feature Request,Low,2025-01-18 14:00:00
+20,Slow API response,API response time is very slow,Technical Issue,Medium,2025-01-18 17:50:00
+21,Unable to logout,Logout button not working,Account Management,Medium,2025-01-19 09:20:00
+22,Payment gateway error,Unable to process card payment,Billing Inquiry,High,2025-01-19 12:10:00
+23,Form submission bug,Form does not submit on clicking submit,Bug Report,High,2025-01-20 10:15:00
+24,Request audit logs,Need audit logs for admin panel,Feature Request,Low,2025-01-20 16:40:00
+25,Database connection error,Unable to connect to database,Technical Issue,High,2025-01-20 18:30:00
+26,Change email address,Need to update registered email,Account Management,Low,2025-01-21 09:10:00
+27,Subscription cancelled wrongly,Subscription cancelled without confirmation,Billing Inquiry,High,2025-01-21 11:55:00
+28,Image upload issue,Unable to upload profile picture,Bug Report,Medium,2025-01-22 10:45:00
+29,Add role management,Need role based access control,Feature Request,Medium,2025-01-22 15:30:00
+30,Cache issue,Old data displayed due to cache,Technical Issue,Medium,2025-01-22 18:20:00
+31,Unable to change password,Password change option not working,Account Management,Medium,2025-01-23 09:40:00
+32,Invoice download error,Unable to download invoice PDF,Billing Inquiry,Medium,2025-01-23 12:00:00
+33,Search bug,Search results are incorrect,Bug Report,Low,2025-01-24 10:10:00
+34,Request mobile app,Need mobile version of application,Feature Request,Low,2025-01-24 14:50:00
+35,Email delivery issue,System emails not being delivered,Technical Issue,High,2025-01-24 17:30:00
+36,Account deactivation issue,Unable to deactivate account,Account Management,Low,2025-01-25 09:00:00
+37,Duplicate payment,Payment processed twice,Billing Inquiry,High,2025-01-25 11:20:00
+38,Dashboard layout bug,Dashboard layout breaks on resize,Bug Report,Low,2025-01-26 10:30:00
+39,Add notification settings,Need notification preference settings,Feature Request,Low,2025-01-26 15:10:00
+40,High CPU usage,System consuming high CPU,Technical Issue,High,2025-01-26 18:00:00
+41,Username change request,Need option to change username,Account Management,Low,2025-01-27 09:15:00
+42,Tax calculation error,Incorrect tax applied on invoice,Billing Inquiry,Medium,2025-01-27 11:40:00
+43,Mobile crash,Mobile app crashes on launch,Bug Report,High,2025-01-28 10:00:00
+44,Add export CSV,Need CSV export for reports,Feature Request,Low,2025-01-28 14:30:00
+45,Service unavailable,Service unavailable error shown,Technical Issue,High,2025-01-28 18:10:00
+46,Profile picture missing,Profile picture not displaying,Account Management,Low,2025-01-29 09:25:00
+47,Payment status incorrect,Payment status showing pending,Billing Inquiry,Medium,2025-01-29 11:50:00
+48,Button click bug,Buttons not responding on click,Bug Report,Medium,2025-01-30 10:20:00
+49,Add two factor auth,Need two factor authentication,Feature Request,High,2025-01-30 15:00:00
+50,Memory leak,System memory usage increasing over time,Technical Issue,High,2025-01-30 18:45:00
